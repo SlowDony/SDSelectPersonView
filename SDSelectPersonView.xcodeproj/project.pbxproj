@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		185B4AA01E14EA4600276039 /* bg_moreunfold.png in Resources */ = {isa = PBXBuildFile; fileRef = 185B4A9F1E14EA4600276039 /* bg_moreunfold.png */; };
 		185B4AA21E14F2F700276039 /* selectPersonData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185B4AA11E14F2F700276039 /* selectPersonData.plist */; };
+		185B4AA41E150A0100276039 /* selectView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 185B4AA31E150A0100276039 /* selectView.gif */; };
 		18870A1F1E14E1BA00CD750A /* SDSelectPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18870A1E1E14E1BA00CD750A /* SDSelectPersonView.m */; };
 		18870A211E14E7DD00CD750A /* img_addperson.png in Resources */ = {isa = PBXBuildFile; fileRef = 18870A201E14E7DD00CD750A /* img_addperson.png */; };
 		18870A231E14E7F200CD750A /* icon_check_box_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 18870A221E14E7F200CD750A /* icon_check_box_select.png */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		185B4A9F1E14EA4600276039 /* bg_moreunfold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_moreunfold.png; sourceTree = "<group>"; };
 		185B4AA11E14F2F700276039 /* selectPersonData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = selectPersonData.plist; sourceTree = "<group>"; };
+		185B4AA31E150A0100276039 /* selectView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = selectView.gif; sourceTree = "<group>"; };
 		18870A1D1E14E1BA00CD750A /* SDSelectPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSelectPersonView.h; sourceTree = "<group>"; };
 		18870A1E1E14E1BA00CD750A /* SDSelectPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSelectPersonView.m; sourceTree = "<group>"; };
 		18870A201E14E7DD00CD750A /* img_addperson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_addperson.png; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		18870A1C1E14E19D00CD750A /* sdSelectPersonView */ = {
 			isa = PBXGroup;
 			children = (
+				185B4AA31E150A0100276039 /* selectView.gif */,
 				185B4AA11E14F2F700276039 /* selectPersonData.plist */,
 				185B4A9F1E14EA4600276039 /* bg_moreunfold.png */,
 				18870A261E14E80300CD750A /* mainColor.png */,
@@ -280,6 +283,7 @@
 				1893C6901E14BFF700B8EC66 /* LaunchScreen.storyboard in Resources */,
 				18870A231E14E7F200CD750A /* icon_check_box_select.png in Resources */,
 				185B4AA21E14F2F700276039 /* selectPersonData.plist in Resources */,
+				185B4AA41E150A0100276039 /* selectView.gif in Resources */,
 				1893C68D1E14BFF700B8EC66 /* Assets.xcassets in Resources */,
 				18870A271E14E80300CD750A /* mainColor.png in Resources */,
 				18870A251E14E7FB00CD750A /* icon_check_box.png in Resources */,

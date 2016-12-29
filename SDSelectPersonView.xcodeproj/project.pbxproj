@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185B4AA01E14EA4600276039 /* bg_moreunfold.png in Resources */ = {isa = PBXBuildFile; fileRef = 185B4A9F1E14EA4600276039 /* bg_moreunfold.png */; };
+		185B4AA21E14F2F700276039 /* selectPersonData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185B4AA11E14F2F700276039 /* selectPersonData.plist */; };
+		18870A1F1E14E1BA00CD750A /* SDSelectPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18870A1E1E14E1BA00CD750A /* SDSelectPersonView.m */; };
+		18870A211E14E7DD00CD750A /* img_addperson.png in Resources */ = {isa = PBXBuildFile; fileRef = 18870A201E14E7DD00CD750A /* img_addperson.png */; };
+		18870A231E14E7F200CD750A /* icon_check_box_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 18870A221E14E7F200CD750A /* icon_check_box_select.png */; };
+		18870A251E14E7FB00CD750A /* icon_check_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 18870A241E14E7FB00CD750A /* icon_check_box.png */; };
+		18870A271E14E80300CD750A /* mainColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 18870A261E14E80300CD750A /* mainColor.png */; };
 		1893C6821E14BFF700B8EC66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893C6811E14BFF700B8EC66 /* main.m */; };
 		1893C6851E14BFF700B8EC66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893C6841E14BFF700B8EC66 /* AppDelegate.m */; };
 		1893C6881E14BFF700B8EC66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893C6871E14BFF700B8EC66 /* ViewController.m */; };
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185B4A9F1E14EA4600276039 /* bg_moreunfold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_moreunfold.png; sourceTree = "<group>"; };
+		185B4AA11E14F2F700276039 /* selectPersonData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = selectPersonData.plist; sourceTree = "<group>"; };
+		18870A1D1E14E1BA00CD750A /* SDSelectPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSelectPersonView.h; sourceTree = "<group>"; };
+		18870A1E1E14E1BA00CD750A /* SDSelectPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSelectPersonView.m; sourceTree = "<group>"; };
+		18870A201E14E7DD00CD750A /* img_addperson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_addperson.png; sourceTree = "<group>"; };
+		18870A221E14E7F200CD750A /* icon_check_box_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_check_box_select.png; sourceTree = "<group>"; };
+		18870A241E14E7FB00CD750A /* icon_check_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_check_box.png; sourceTree = "<group>"; };
+		18870A261E14E80300CD750A /* mainColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainColor.png; sourceTree = "<group>"; };
 		1893C67D1E14BFF700B8EC66 /* SDSelectPersonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDSelectPersonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1893C6811E14BFF700B8EC66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1893C6831E14BFF700B8EC66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +93,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18870A1C1E14E19D00CD750A /* sdSelectPersonView */ = {
+			isa = PBXGroup;
+			children = (
+				185B4AA11E14F2F700276039 /* selectPersonData.plist */,
+				185B4A9F1E14EA4600276039 /* bg_moreunfold.png */,
+				18870A261E14E80300CD750A /* mainColor.png */,
+				18870A241E14E7FB00CD750A /* icon_check_box.png */,
+				18870A221E14E7F200CD750A /* icon_check_box_select.png */,
+				18870A201E14E7DD00CD750A /* img_addperson.png */,
+				18870A1D1E14E1BA00CD750A /* SDSelectPersonView.h */,
+				18870A1E1E14E1BA00CD750A /* SDSelectPersonView.m */,
+			);
+			path = sdSelectPersonView;
+			sourceTree = "<group>";
+		};
 		1893C6741E14BFF700B8EC66 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +131,7 @@
 		1893C67F1E14BFF700B8EC66 /* SDSelectPersonView */ = {
 			isa = PBXGroup;
 			children = (
+				18870A1C1E14E19D00CD750A /* sdSelectPersonView */,
 				1893C6831E14BFF700B8EC66 /* AppDelegate.h */,
 				1893C6841E14BFF700B8EC66 /* AppDelegate.m */,
 				1893C6861E14BFF700B8EC66 /* ViewController.h */,
@@ -247,8 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1893C6901E14BFF700B8EC66 /* LaunchScreen.storyboard in Resources */,
+				18870A231E14E7F200CD750A /* icon_check_box_select.png in Resources */,
+				185B4AA21E14F2F700276039 /* selectPersonData.plist in Resources */,
 				1893C68D1E14BFF700B8EC66 /* Assets.xcassets in Resources */,
+				18870A271E14E80300CD750A /* mainColor.png in Resources */,
+				18870A251E14E7FB00CD750A /* icon_check_box.png in Resources */,
+				18870A211E14E7DD00CD750A /* img_addperson.png in Resources */,
 				1893C68B1E14BFF700B8EC66 /* Main.storyboard in Resources */,
+				185B4AA01E14EA4600276039 /* bg_moreunfold.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18870A1F1E14E1BA00CD750A /* SDSelectPersonView.m in Sources */,
 				1893C6881E14BFF700B8EC66 /* ViewController.m in Sources */,
 				1893C6851E14BFF700B8EC66 /* AppDelegate.m in Sources */,
 				1893C6821E14BFF700B8EC66 /* main.m in Sources */,
@@ -505,6 +543,7 @@
 				1893C6AC1E14BFF700B8EC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1893C6AD1E14BFF700B8EC66 /* Build configuration list for PBXNativeTarget "SDSelectPersonViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +552,7 @@
 				1893C6AF1E14BFF700B8EC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1893C6B01E14BFF700B8EC66 /* Build configuration list for PBXNativeTarget "SDSelectPersonViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +561,7 @@
 				1893C6B21E14BFF700B8EC66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
